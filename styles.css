@@ -1,0 +1,80 @@
+body {
+    color: white;
+    background:rgb(205 216 222);
+    font-family: "Rufina", serif;
+    margin-bottom: 50px;
+    margin-top:50px
+}
+
+header {
+
+    border-bottom: solid 3px rgb(0, 0, 0);
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding: 1px;
+
+}
+
+.Stexto {
+    display: flex;
+    background: rgb(89 138 229);
+    padding-bottom: 3%;
+    padding-left: 1%;
+    padding-right:1%;
+    padding-top: 1%;
+    justify-content: center;
+    padding-top:10px;
+    margin: 10px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.texto {
+
+    margin-right: 2%;
+}
+
+H1 {
+color:rgb(255, 255, 255);
+    font-size: 25px;
+
+}
+
+p {
+
+    font-size: 15px;
+
+}
+h2{
+color:rgb(255, 255, 255)
+}
+
+.Svideos{
+
+    background:rgb(89,138,229);
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+img {
+
+    height: 200px;
+
+}
+
+.catalogo{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.catalogo img{
+    opacity:0.8;
+}
+.catalogo img:hover{
+    opacity: 1.2;
+    border:1.5px solid green;
+}
+
+ 
+
+}
